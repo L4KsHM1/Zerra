@@ -307,4 +307,13 @@ footer {
   .facility button {
     margin: 0.5rem;
   }
+  .indoor .desc {
+    display: none;
+  }
+  .indoor h3 {
+    /* display: none; */
+  }
+  .indoor img {
+    width: 100%;
+  }
 }
