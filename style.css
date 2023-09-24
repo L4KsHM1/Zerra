@@ -118,8 +118,10 @@ hr {
 }
 .rating button {
   padding: 3rem;
-  border-radius: 20%;
+  border-radius: 100%;
   border: 1px solid;
+  height: 200px;
+  width: 200px;
 }
 .facility-top p {
   font-size: 35px;
@@ -291,11 +293,14 @@ footer {
     /* margin-left: 3rem; */
     text-align: center;
     gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .rating button {
-    padding: 1.5rem;
+    padding: 1rem;
     /* change */
-    border-radius: 30%;
+    border-radius: 100%;
   }
   .facility-top p {
     font-size: 1rem;
@@ -307,13 +312,37 @@ footer {
   .facility button {
     margin: 0.5rem;
   }
-  .indoor .desc {
-    display: none;
+  .indoor {
+    grid-template-rows: auto 2px 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
-  .indoor h3 {
-    /* display: none; */
-  }
+
   .indoor img {
     width: 100%;
+  }
+  .customer {
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+  }
+  .customer img {
+    width: 100%;
+  }
+  .comment {
+    padding: 1rem;
+  }
+  .blog-img {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    padding: 1rem;
+  }
+  .blog-img img {
+    width: 100%;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .foot-links {
+    flex-direction: column;
   }
 }
