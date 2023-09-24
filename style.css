@@ -341,9 +341,12 @@ footer {
   }
   footer {
     flex-direction: column;
+    align-items: center;
   }
   .foot-links {
     flex-direction: column;
+  }
+  .block {
     align-items: center;
   }
 }
