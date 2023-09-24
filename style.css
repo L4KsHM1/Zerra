@@ -242,3 +242,68 @@ footer {
 .git a {
   color: white;
 }
+@media (max-width: 769px) {
+  nav .links {
+    display: none;
+  }
+  .banner-text {
+    padding: 1rem;
+    margin: 3rem auto auto auto;
+  }
+  .banner-text h1 {
+    font-size: 3rem;
+  }
+  .banner-text p {
+    /* text-align: start; */
+    margin-top: 1rem;
+  }
+  .room {
+    /* width: 20rem;
+    column-width: 10px; */
+    display: none;
+  }
+  .main {
+    padding: 1rem;
+    margin: 1rem;
+    flex-direction: column;
+  }
+  .main-l {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .main-r {
+    text-align: center;
+  }
+  .gallery {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    margin: 1rem;
+  }
+  .gallery img {
+    width: 100%;
+  }
+  .service {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+  }
+  .rating {
+    /* margin-left: 3rem; */
+    text-align: center;
+    gap: 1rem;
+  }
+  .rating button {
+    padding: 1.5rem;
+    border-radius: 30%;
+  }
+  .facility-top p {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  .facility {
+    padding: 1.5rem;
+  }
+  .facility button {
+    margin: 0.5rem;
+  }
+}
