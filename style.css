@@ -293,7 +293,8 @@ footer {
     gap: 1rem;
   }
   .rating button {
-    /* padding: 1.5rem; */
+    padding: 1.5rem;
+    /* change */
     border-radius: 30%;
   }
   .facility-top p {
