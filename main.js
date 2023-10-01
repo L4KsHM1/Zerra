@@ -35,12 +35,14 @@ const blogArray = [
 ];
 
 blogArray.forEach((blog) => {
-  let blogHtml = `<img
+  let blogHtml = `<div class="section"
+  <img
     src=" ${blog.img}"
     alt=""
   />
   <p>${blog.text}</p>
-  <h4>${blog.date}</h4>`;
+  <h4>${blog.date}</h4>
+</div>`;
   blogContainer.innerHTML += blogHtml;
 });
 
