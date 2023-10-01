@@ -41,6 +41,7 @@ blogArray.forEach((blog) => {
   />
   <p>${blog.text}</p>
   <h4>${blog.date}</h4>`;
+  blogContainer.innerHTML += blogHtml;
 });
 
 imgArray.forEach((url) => {
