@@ -1,5 +1,5 @@
 import "./style.css";
-const imgContainer = document.querySelector("gallery");
+const imgContainer = document.querySelector(".gallery");
 const imgArray = [
   {
     imgUrl:
