@@ -1,6 +1,6 @@
 import "./style.css";
 const imgContainer = document.querySelector(".gallery");
-const blogContainer = document.querySelector(".blog-msg");
+const blogContainer = document.querySelector(".blog-img");
 const imgArray = [
   {
     imgUrl:
