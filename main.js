@@ -75,7 +75,7 @@ indoorDetails.forEach((details) => {
         </svg>
       </a>
     </div>
-  <hr>`;
+  `;
   indoorContainer.innerHTML += indoorHtml;
 });
 
