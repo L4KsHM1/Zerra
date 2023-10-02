@@ -48,7 +48,7 @@ const blogArray = [
 ];
 
 indoorDetails.forEach((details) => {
-  let indoorHtml = `<div class="indoor">
+  let indoorHtml = `
     <img
       src="${details.img}"
       alt=""
@@ -75,7 +75,7 @@ indoorDetails.forEach((details) => {
         </svg>
       </a>
     </div>
-  </div>`;
+  `;
   indoorContainer.innerHTML += indoorHtml;
 });
 
