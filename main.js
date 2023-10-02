@@ -1,7 +1,7 @@
 import "./style.css";
 const galleryContainer = document.querySelector(".gallery");
 const blogContainer = document.querySelector(".blog-img");
-const indoorContainer = document.querySelector(".indoor");
+const facilityContainer = document.querySelector(".facility");
 
 const indoorDetails = [
   {
@@ -49,6 +49,7 @@ const blogArray = [
 
 indoorDetails.forEach((details) => {
   let indoorHtml = `
+  <div class="indoor">
     <img
       src="${details.img}"
       alt=""
@@ -75,8 +76,11 @@ indoorDetails.forEach((details) => {
         </svg>
       </a>
     </div>
-  `;
-  indoorContainer.innerHTML += indoorHtml;
+    </div>
+    <hr/>
+    
+    `;
+  facilityContainer.innerHTML += indoorHtml;
 });
 
 blogArray.forEach((blog) => {
